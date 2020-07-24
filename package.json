@@ -1,7 +1,7 @@
 {
-  "name": "movie-search",
+  "name": "moviesearch",
   "version": "1.0.0",
-  "description": "",
+  "description": "Find out about your favorite movie on TMDB!",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
