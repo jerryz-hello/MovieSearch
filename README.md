@@ -4,4 +4,4 @@ Search for your favorite movie on TMDB with a nice-looking front-end powered by 
 
 # Credits
 
-This is an tutorial app that I built from [Build a movie search app in React](https://scrimba.com/course/greactmovie) tutorial. I added a few twists to its UI
+An tutorial app built from [Build a movie search app in React](https://scrimba.com/course/greactmovie) with a few twists
