@@ -1,0 +1,114 @@
+html {
+  font-size: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+small {
+  font-size: 1.2rem;
+}
+
+.App {
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+.form {
+  display: grid;
+}
+
+.label {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.input {
+  font-size: 1.6rem;
+  padding: 0.5rem 2rem;
+  line-height: 2.8rem;
+  border-radius: 2rem;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+}
+
+.button {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 1rem 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: background-color 200ms;
+}
+
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card-list {
+  margin-top: 1rem;
+}
+
+.card {
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
+  background-color: white;
+}
+
+.card--title {
+  margin: 0 1rem;
+  font-size: 2.8rem;
+}
+
+.card--image {
+  float: left;
+  display: block;
+  margin-right: 1rem;
+}
+
+.card--content::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media (min-width: 768px) {
+  .form {
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 1rem;
+    align-items: center;
+  }
+
+  .label {
+    margin-bottom: 0;
+  }
+
+  .input {
+    margin-bottom: 0;
+  }
+}
